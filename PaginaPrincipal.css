@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://img.freepik.com/premium-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg?w=740);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-sm{
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    height: 55px;
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.portlet-head {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.portlet-body {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-direita {
+    margin-top: 30px;
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.portlet-body{
+    height: 205px;
+}
+
+.carousel-inner {
+    margin: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#carouselExample {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
