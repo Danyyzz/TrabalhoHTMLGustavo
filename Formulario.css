@@ -1,12 +1,12 @@
 body {
     background-image: url(https://img.freepik.com/premium-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg?w=740);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(5px);
-    height: 100vh;
+    backdrop-filter: blur(3px);
+    height: 100%;
     margin: 0;
 }
+
 
 .container-sm {
     background-color: #ffffffcc;
