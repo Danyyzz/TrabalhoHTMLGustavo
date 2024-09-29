@@ -1,0 +1,8 @@
+body {
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    margin: 0;
+}
