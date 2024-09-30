@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-image: url(templates/planopin.jpg);
     background-size: cover;
@@ -18,11 +22,13 @@ body {
 .navbar-brand{
     font-weight: bold;
     font-size: 30px;
+    
 }
 
 
 .container {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .carousel-inner img {
@@ -45,6 +51,56 @@ body {
     width: 80%;
     margin: auto;
     margin-bottom: 30px;
+    border-radius: 10px;
+
 }
 
+#carousel2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+#botao1{
+    width: 80%;
+    margin: auto;
+}
+
+#botao2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn-custom-green{
+    background-color:#858652;
+}
+
+h1{
+    font-family: "Ubuntu", sans-serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+
+#ContainerPrincipal{
+    background-color: #85865252;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+#JardimSecreto{
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container-sm{
+    background-color: #85865252;
+    border-radius: 10px;
+    height: 55px;
+}
 
