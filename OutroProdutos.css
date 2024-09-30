@@ -28,7 +28,10 @@ body {
 
 .container {
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+>>>>>>> d304d71fdf8224e6226026afeb0cb0fc796e1921
 }
 
 .carousel-inner img {
@@ -85,6 +88,7 @@ h1{
 p{
     font-family: "Poppins", sans-serif;
 }
+<<<<<<< HEAD
 
 
 #ContainerPrincipal{
@@ -104,3 +108,5 @@ p{
     height: 55px;
 }
 
+=======
+>>>>>>> d304d71fdf8224e6226026afeb0cb0fc796e1921
