@@ -82,6 +82,10 @@ h1{
     font-family: "Ubuntu", sans-serif;
 }
 
+a{
+    font-family: "Poppins", sans-serif;  
+}
+
 p{
     font-family: "Poppins", sans-serif;
 }
@@ -101,4 +105,22 @@ p{
     background-color: #85865252;
     border-radius: 10px;
     height: 55px;
+}
+
+.containerInfos{
+    background-color: #858652;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#LinksAvulsos{
+    padding-top: 15px;
+    padding-left: 5%;
+}
+
+#RedesSociais{
+    padding-top: 15px;
+    padding-left: 5%;
+
 }
