@@ -1,0 +1,47 @@
+Convidamos você a se inscrever no pré-lançamento exclusivo e ser um dos
+ primeiros a experimentar a magia deste aroma encantador. 
+ Ao se cadastrar, não só garantirá sua fragrância, mas também receberá 
+ itens especiais que complementarão sua experiência. 
+ Não perca a chance de mergulhar neste jardim de delícias olfativas e 
+ desfrutar de um mundo de elegância e sofisticação desse lançamento 
+ inesquecível. Inscreva-se agora e transforme seu dia a dia com 
+ Rosa Mística!
+
+
+ Ao completar seu cadastro, você estará um passo mais perto de 
+ mergulhar no universo de fragrâncias que a Rosa Mística tem a oferecer.
+
+Infos Pessoais:
+	Nome:
+	(nome)	(Sobrenome)
+
+	E-mail:
+
+	Celular:
+	(DDD) (Telefone)
+
+
+Informações de entrega:
+	Endereço:
+
+	Número
+
+	Bairro:
+
+	Complemento:
+
+	Cidade:
+
+	CEP:
+
+	Estado:
+
+Informações de Pagamento:
+	Pix:
+	(falar que irá gerar um QRCode após a confirmação)
+
+	Boleto:
+	(Boleto será enviado por e-mail após a confirmação)
+
+	Cartão:
+	(Mastercard, Visa, Elo) (N° Cartão) (CCV) (Validade) (Parcelas)
