@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 body {
     background-image: url(templates/planopin.jpg);
     background-size: cover;
@@ -21,8 +25,8 @@ body {
 
 .navbar-brand{
     font-weight: bold;
-    font-size: 30px;
-    
+    font-size: 60px;
+    font-family: "Qwitcher Grypen", cursive;
 }
 
 
@@ -79,21 +83,30 @@ body {
 }
 
 h1{
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Old Standard TT", serif;
 }
 
 a{
-    font-family: "Poppins", sans-serif;  
+    font-family: "Old Standard TT", serif;  
+}
+
+a1{
+    font-family: "Poppins", sans-serif;
+
 }
 
 p{
     font-family: "Poppins", sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
+
 
 #ContainerPrincipal{
     background-color: #85865252;
     padding-bottom: 15px;
     border-radius: 10px;
+    padding-top: 5px;
 }
 
 #JardimSecreto{
@@ -104,7 +117,7 @@ p{
 .container-sm{
     background-color: #85865252;
     border-radius: 10px;
-    height: 55px;
+    height: 65px;
 }
 
 .containerInfos{
