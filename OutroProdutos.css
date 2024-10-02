@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     background-image: url(templates/planopin.jpg);
     background-size: cover;
@@ -83,7 +85,7 @@ body {
 }
 
 h1{
-    font-family: "Old Standard TT", serif;
+    font-family: "PT Serif", serif;
 }
 
 a{
@@ -134,5 +136,10 @@ p{
 #RedesSociais{
     padding-top: 15px;
     padding-left: 5%;
+
+}
+
+#BordaoOutrosProdutos{
+    font-family: "PT Serif", serif;
 
 }

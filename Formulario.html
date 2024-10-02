@@ -12,55 +12,83 @@
 </head>
 
 <body>
-  <div id="FormularioPrincipal" class="container-md">
 
-      <h1> Por favor preencha o formulário</h1>
-      <p>Ao completar seu cadastro, você estará a um passo de 
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar">
+      <div id="NavFormulario" class="container-sm">
+          <a class="navbar-brand" href="#">Jardim Secreto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a id="Bordao" class="nav-link active" aria-current="page" href="#">A cada fragrância, um segredo revelado. </a>
+                  </li>
+              </ul>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>
+                        Voltar
+                    </strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="PaginaPrincipal.html">Rosa Mística</a></li>
+                        <li><a class="dropdown-item" href="OutrosProdutos.html">Site Oficial</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+          </div>
+      </div>
+  </nav>
+
+    <div id="FormularioPrincipal" class="container-md">
+        <h1> Por favor, preencha o formulário</h1>
+        <p>Ao completar seu cadastro, você estará a um passo de 
         mergulhar no universo de fragrâncias que a Rosa Mística tem a oferecer.</p>
-      <hr style="margin-top: -2px;">
-      <form class="row g-3 d-flex justify-content-start ">
-        <div class="col-md-6" style="width: 30%;">
-          <label for="inputEmail4" class="form-label">Nome</label>
-          <input type="email" class="form-control" id="inpuNome">
-        </div>
-        <div class="col-md-6" style="width: 70%;">
-          <label for="inputSobrenome" class="form-label">Sobrenome</label>
-          <input type="name" class="form-control" id="inputSobrenome">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail </label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-        </div>
-        <div class="col-md-6" style="width: 8%;">
-          <label for="inputDDD" class="form-label">DDD</label>
-          <input type="text" class="form-control" id="InputDDD" placeholder="(DDD)">
-        </div>
-        <div class="col-md-2" style="width: 15%;">
-          <label for="inputTel" class="form-label">Telefone</label>
-          <input type="text" class="form-control" id="InputTel" placeholder="0000-0000">
-        </div>
-        
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Concordo com os Termos e Condições.
-            </label>
-          </div>
+        <hr style="margin-top: -2px;">
+        <form class="row g-3 d-flex justify-content-start">
+            <div class="col-md-6" style="width: 30%;">
+                <label for="inputEmail4" class="form-label">Nome</label>
+                <input type="name" class="form-control" id="inpuNome">
+            </div>
+            <div class="col-md-6" style="width: 70%;">
+                <label for="inputSobrenome" class="form-label">Sobrenome</label>
+                <input type="name" class="form-control" id="inputSobrenome">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="col-md-6" style="width: 10%;">
+                <label for="inputDDD" class="form-label">DDD</label>
+                <input type="text" class="form-control" id="InputDDD" placeholder="(DDD)">
+            </div>
+            <div class="col-md-2" style="width: 20%;">
+                <label for="inputTel" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="InputTel" placeholder="0000-0000">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Concordo com os Termos e Condições.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Receber e-mails promocionais de produtos Jardim Secreto.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-custom-green"><strong>Enviar</strong></button>
+            </div>
+        </form>
+    </div>
+</div>
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Receber e-mails promocionais de produtos Jardim Secreto.
-            </label>
-          </div>
-
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-custom-green"><strong>Enviar</strong></button>
-        </div>
-      </form>
-  </div>
 
   <!-- JQuery e Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
