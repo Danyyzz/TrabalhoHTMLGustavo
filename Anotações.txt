@@ -1,1 +1,10 @@
 Site Conhecendo nossa história sendo interativa.... tela de de inicio como uma fechadura, fansia/magia 
+
+
+Padronizando:
+
+Navbar:
+- Deixar a altura auto.
+- Deixar o padrão de largura como 90%
+- Borda arredondada com 10px
+- Tamanho da fonte do nome da loja como 30px (Podemos alterar isso futuramento dependendo da fonte usada)
