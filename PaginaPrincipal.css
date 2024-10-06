@@ -6,6 +6,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@media screen and (max-width: 780px){
+    .imagemNotas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #ImagemDireita{
+        width: 100%;
+    }
+    .imagemNotas #Notas{
+        width: 100%;
+    }
+    .logo > p {
+        display: none;
+    }
+    .nav-item .nav-link{
+        margin: 0px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-item .nav-link {
+        margin: 0px;
+        border-radius: 0px;
+    }
+    
+}
+
 body {
     background-image: url(https://img.freepik.com/premium-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg?w=740);
     background-size: cover;
@@ -17,16 +47,32 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
-}
-
-.navbar-brand{
-    font-weight: bold;
-    font-size: 60px;
-    font-family: "Qwitcher Grypen", cursive;
+    background-color: #e9d1d2c5;
+    padding: 5px;
 
 }
+.container-fluid {
+    padding: 0px;
+}
 
+
+.logo {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+.navbar-brand > img {
+    max-width: 250px;
+}
+
+.logo > p {
+    margin: 0px 0px 15px 5px;
+}
 .container-sm{
     background-color: #e9d1d2c5;
     border-radius: 10px;
@@ -39,7 +85,7 @@ body {
     margin-top: 6%;
 }
 
-#TituloRosa{
+#TituloRosa h1{
     font-family: "Qwitcher Grypen", cursive;
     font-size: 80px
 }
@@ -146,6 +192,8 @@ li {
     flex-wrap: wrap;
 }
 
+
+
 #ChamadaPreVenda {
     width: 100%; 
     text-align: center;
@@ -175,5 +223,20 @@ li {
 video{
     display: flex;
     border-radius: 5px;
+}
+
+.nav-link {
+    font-weight: 300;
+    background-color: #e9d1d2c5;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.021);
+    cursor: pointer;
+    padding: 10px 0px 10px 30px;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+    transition: all 0.5s
 }
 
