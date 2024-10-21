@@ -1,5 +1,6 @@
 Site Conhecendo nossa história sendo interativa.... tela de de inicio como uma fechadura, fansia/magia 
 
+Midia Magica
 
 Padronizando:
 
@@ -11,3 +12,23 @@ Navbar:
 
 
 Carrossel imagens com 800x400
+
+
+Ideias Gerais:
+
+Destaques: lançamentos (maquiagens, cabelos e perfumes)
+
+Linha Encantada: Psicodelica / Azul / Maquiagem
+Linha Mistica: Delicada, Rosa, Doce / Rosa / perfumes
+Linhas Radiante: Cores Vibrantes / Amarelo / cabelos
+
+Ter pelo menos em cada página:
+3 perfumes - Mistica
+3 Maquigens - Encantada
+3 Cabelo - Radiante
+
+Itens mais procurados no Destaques:
+1 Batom
+1 pó solto
+1 protetor solar
+1 kit shampoo/condicionador

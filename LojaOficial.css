@@ -62,10 +62,16 @@ body {
     margin: auto;
 }
 
+.container{
+    width: 100%;
+    padding: 0;
+    }
+
 .containerAbas{
     background-color: #858652f0;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    padding: 0;
 }
 
 #AbasLink{
@@ -77,7 +83,7 @@ body {
     background-color: #ffffff96;
     border-radius: 10px;
     margin: auto;
-    padding: 15px;
+    padding-top: 10px;
     margin-top: 10px;
 }
 
