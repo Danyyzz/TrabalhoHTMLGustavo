@@ -195,6 +195,10 @@ body {
     .image-container > #TextoImg4{
         display: none;
     }
+
+    .logo > p{
+        display: none;
+    }
 }
 
 /*Configurações mobile cards dos itens*/
