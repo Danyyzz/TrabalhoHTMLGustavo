@@ -11,6 +11,9 @@ Navbar:
 - Tamanho da fonte do nome da loja como 30px (Podemos alterar isso futuramento dependendo da fonte usada)
 
 
+Imagens nos quadradinhos com 1080x1080px
+
+
 Carrossel imagens com 800x400
 
 
@@ -33,4 +36,3 @@ Itens mais procurados no Destaques:
 1 protetor solar
 1 kit shampoo/condicionador
 
-Itens 
