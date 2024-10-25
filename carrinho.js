@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderCart();
 
-    // Remove item do carrinho
+    // Remover
     cartItemsDiv.addEventListener("click", (event) => {
         if (event.target.classList.contains("delete-item")) {
             const index = parseInt(event.target.getAttribute("data-index"), 10);
@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Botão "Pagar" que zera o carrinho
+    // Pagamento/limpar
     document.getElementById("pay-button").addEventListener("click", () => {
         localStorage.removeItem("cart");
         cart.items = [];
         cart.total = 0;
         renderCart();
-        alert("Compra finalizada! Obrigado.");
+        alert("Compra finalizada! Obrigado pela preferencia.");
     });
 });
