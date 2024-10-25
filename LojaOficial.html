@@ -26,7 +26,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                  <a id="LinksTopo" class="nav-link" href="OutrosProdutos.html">
+                  <a id="LinksTopo" class="nav-link" href="carrinho.html">
                       <strong>Carrinho <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z"/></svg></strong>
                   </a>
                 </li>
@@ -117,7 +117,7 @@
   </div>
 
   <!--1-->
-  <div id="itens1" class="row">
+  <div id="itensQuadrados" class="row">
     <div class="col">
       <div class="card">
         <img src="templates/ImgItensMaquiagem/Produtos/batom1.png" class="card-img-top" alt="Batom1">
@@ -175,16 +175,18 @@
   </div>
 
   <div class="rowImagemNotas">
-    <div id="rimelDestaque" class="container-md">
+
+    <div id="ProdutoDestaque" class="container-md">
+
         <div class="row align-items-center"> 
-            <div id="ImagemRimel" class="col-md-6"> 
-                <div id="carouselRimel" class="carousel slide mt-4" data-bs-ride="carousel">
-                    <div id="rimelCarrossel" class="carousel-inner">
+            <div id="ImagemDestaque" class="col-md-6"> 
+                <div id="carouselRimel" class="carousel slide" data-bs-ride="carousel">
+                    <div id="destaqueCarrossel" class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="templates/ImgModelos/ModeloRimel.png" class="d-block w-100" alt="Primeira imagem">
+                            <img src="templates/ImgModelos/ModeloRimel.png" class="d-block w-100" alt="Modelo Rimel">
                         </div>
                         <div class="carousel-item">
-                            <img src="templates/ImgModelos/RimelDestaque.png" class="d-block w-100" alt="Segunda imagem">
+                            <img src="templates/ImgModelos/RimelModelo.png" class="d-block w-100" alt="Rimel Modelo">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselRimel" data-bs-slide="prev">
@@ -199,10 +201,21 @@
             </div>
 
             <div id="TextoRimel" class="col-md-6">
+              <div class="containerTexDes">
                 <h2>Segredo das Fadas: Para um toque mágico e encantador nos seus cílios.</h2>
+                <p>Permita-se ser envolvida pela magia que só o Segredo das Fadas pode oferecer, transformando seus cílios com um 
+                   toque mágico e encantador. Com uma fórmula inovadora e um aplicador preciso, seus cílios ganharão volume e definição. 
+                   Não espere mais para revelar o segredo por trás de um olhar de fada. Experimente agora e sinta a magia!</p>
+
+                <p class="precoDestaques">R$99.99</p>
+                <a href="#" id="botaoDestaques" class="btn btn-custom"><strong>Adicionar ao Carrinho</strong></a>
+
+              </div>
             </div>
         </div>
+
     </div>
+
 </div>
 
 
@@ -211,7 +224,7 @@
 </div>
 
   <!--1.1-->
-  <div id="itens1" class="row">
+  <div id="itensQuadrados" class="row">
     <div class="col">
       <div class="card">
         <img src="templates/ImgItensMaquiagem/Produtos/batom1.png" class="card-img-top" alt="Batom1">
@@ -265,136 +278,159 @@
 
     <!--Imagem e Texto mesma linha 2-->
     <div class="containerTextos">
-      <h1>Destaque em Pó Solto</h1>
+      <h1>Destaque em Batons</h1>
     </div>
 
-    <div class="row imagemNotas">
-      <div id="poSolto" class="container-md">
-        <div class="row d-flex align-items-center"> <!-- Adicionando uma nova row flexível -->
-          <div class="col-md-6"> <!-- Carrossel ocupará 6 colunas -->
-            <div id="carouselPoSolto" class="carousel slide mt-4" data-bs-ride="carousel">
-              <div id="poSoltoCarrossel" class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="templates\ImgModelos\ModeloPoSolto.png" class="d-block w-100" alt="Primeira imagem">
-                </div>
-                <div class="carousel-item">
-                  <img src="templates\ImgModelos\PoSoltoDestaque.png" class="d-block w-100" alt="Segunda imagem">
+    <div class="rowImagemNotas">
+
+      <div id="ProdutoDestaque" class="container-md">
+  
+          <div class="row align-items-center"> 
+              <div id="ImagemDestaque" class="col-md-6"> 
+                  <div id="carouselBatom" class="carousel slide" data-bs-ride="carousel">
+                      <div id="destaqueCarrossel" class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="templates/ImgModelos/ModeloBatom.png" class="d-block w-100" alt="Modelo Batom">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="templates/ImgModelos/BatomModelo.png" class="d-block w-100" alt="Batom Modelo">
+                          </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBatom" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselBatom" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Próximo</span>
+                      </button>
+                  </div>
+              </div>
+  
+              <div id="TextoRimel" class="col-md-6">
+                <div class="containerTexDes">
+                  <h2>Carmim Camélia: a elegância atemporal de um vermelho profundo.</h2>
+                  <p>Com um tom vermelho profundo que captura a essência da sofisticação, este batom é mais do que uma cor, 
+                    é uma declaração de moda. Sua fórmula de longa duração e acabamento impecável garantem que cada sorriso seja 
+                    uma obra de arte. Carmim Camélia não é apenas um batom, é o acessório definitivo para quem deseja deixar uma impressão 
+                    marcante.</p>
+  
+                  <p class="precoDestaques">R$99.99</p>
+                  <a href="#" id="botaoDestaques" class="btn btn-custom"><strong>Adicionar ao Carrinho</strong></a>
+  
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPoSolto" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselPoSolto" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próximo</span>
-              </button>
-            </div>
           </div>
-    
-          <div id="Notas" class="col-md-6 d-flex justify-content-start align-items-center"> <!-- Texto ocupará 6 colunas -->
-            <div class="portlet-body" style="height: 70%; width: 100%; margin-top: 45px;">
-              <h1>NOTAS DE TOPO:</h1>
-            </div>
-          </div>
-        </div>
+  
       </div>
-    </div>
-      
+  
+  </div>
+        
 
   <div class="containerTextos">
     <h1>Imperdíveis</h1>
   </div>
 
       <!--1.2-->
-    <div id="itens1" class="row">
-      <div class="col">
-        <div class="card">
-          <img src="templates/ImgItensMaquiagem/Produtos/batom1.png" class="card-img-top" alt="Batom1">
-          <div class="card-body">
-            <h5 class="card-title"><strong>Beijo de Sereia</strong></h5>
-            <p class="card-price">R$99.99</p>
-            <p class="card-text">Desperte o encanto do fundo do mar com o batom "Beijo de Sereia" que realça a beleza natural dos seus lábios.</p>
-            <a href="#" class="btn btn-custom-green"><strong>Adicionar ao Carrinho</strong></a>
+      <div id="itensQuadrados" class="row">
+        <div class="col">
+          <div class="card">
+            <img src="templates/ImgItensMaquiagem/Produtos/Corretivo1.jpg" class="card-img-top" alt="Corretivo1">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Flor de Porcelana</strong></h5>
+              <p class="card-price">R$99.99</p>
+              <p class="card-text">Este corretivo possui uma textura leve que promete uma cobertura impecável, remetendo à delicadeza e pureza das porcelanas antigas.</p>
+              <a href="#" class="btn btn-custom-green add-to-cart"><strong>Adicionar ao Carrinho</strong></a>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="col">
-        <div class="card">
-          <img src="templates\ImgItensMaquiagem\Produtos\ProtetorSolar1.jpg" class="card-img-top" alt="ProtetorSolar1">
-          <div class="card-body">
-            <h5 class="card-title"><strong>Beijo do Sol</strong></h5>
-            <p class="card-price">R$99.99</p>
-            <p class="card-text">O protetor solar que acaricia sua pele como uma brisa suave. Sua fórmula leve garante uma aplicação suave e duradoura, sem deixar resíduos oleosos.</p>
-            <a href="#" class="btn btn-custom-green"><strong>Adicionar ao Carrinho</strong></a>
+    
+        <div class="col">
+          <div class="card">
+            <img src="templates/ImgItensMaquiagem/Produtos/Rimel1.jpg" class="card-img-top" alt="Rimel1">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Sombra da Lua</strong></h5>
+              <p class="card-price">R$99.99</p>
+              <p class="card-text">Oferece um efeito dramático e profundo. Com pigmentos escuros e ricos, ideal para eventos especiais onde você deseja brilhar.</p>
+              <a href="#" class="btn btn-custom-green add-to-cart"><strong>Adicionar ao Carrinho</strong></a>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="col">
-        <div class="card">
-          <img src="templates\ImgItensMaquiagem\Produtos\PoCompacto1.jpg" class="card-img-top" alt="PoCompacto1">
-          <div class="card-body">
-            <h5 class="card-title"><strong>Elegância da Magnólia</strong></h5>
-            <p class="card-price">R$99.99</p>
-            <p class="card-text">A essência da beleza natural em cada detalhe. É a escolha perfeita para quem busca um acabamento suave e sofisticado.</p>
-            <a href="#" class="btn btn-custom-green"><strong>Adicionar ao Carrinho</strong></a>
+    
+        <div class="col">
+          <div class="card">
+            <img src="templates\ImgItensMaquiagem\Produtos\PoCompacto1.jpg" class="card-img-top" alt="PoCompacto1">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Elegância da Magnólia</strong></h5>
+              <p class="card-price">R$99.99</p>
+              <p class="card-text">A essência da beleza natural em cada detalhe. É a escolha perfeita para quem busca um acabamento suave e sofisticado.</p>
+              <a href="#" class="btn btn-custom-green add-to-cart"><strong>Adicionar ao Carrinho</strong></a>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="col">
-        <div class="card">
-          <img src="templates\ImgItensMaquiagem\Produtos\KitShamCond1.jpg" class="card-img-top" alt="KitShamCond1">
-          <div class="card-body">
-            <h5 class="card-title"><strong>Harmonia de Hibisco</strong></h5>
-            <p class="card-price">R$99.99</p>
-            <p class="card-text">Descubra o segredo para cabelos mais fortes com o kit Harmonia de Hibisco.Dê adeus aos fios fracos e celebre a beleza de um cabelo saudável e cheio de vida.</p>
-            <a href="#" class="btn btn-custom-green"><strong>Adicionar ao Carrinho</strong></a>
+    
+        <div class="col">
+          <div class="card">
+            <img src="templates\ImgItensMaquiagem\Produtos\KitShamCond1.jpg" class="card-img-top" alt="KitShamCond1">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Harmonia de Hibisco</strong></h5>
+              <p class="card-price">R$99.99</p>
+              <p class="card-text">Descubra o segredo para cabelos mais fortes com o kit Harmonia de Hibisco.Dê adeus aos fios fracos e celebre a beleza de um cabelo saudável e cheio de vida.</p>
+              <a href="#" class="btn btn-custom-green add-to-cart"><strong>Adicionar ao Carrinho</strong></a>
+            </div>
           </div>
         </div>
-      </div>
-  </div>
-
-
+    </div>
+    
     <!--Imagem e Texto mesma linha 3-->
   <div class="containerTextos">
-    <h1>Destaque em Batons</h1>
+    <h1>Destaque em Cremes Hidratantes para Cabelos</h1>
   </div>
 
-    <div class="row imagemNotas">
-      <div id="Batom" class="container-md">
-        <div class="row d-flex align-items-center"> 
-          <div class="col-md-6">
-            <div id="carouselBatom" class="carousel slide mt-4" data-bs-ride="carousel">
-              <div id="Batom" class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="templates\ImgModelos\ModeloBatom.png" class="d-block w-100" alt="Primeira imagem">
+  <div class="rowImagemNotas">
+
+    <div id="ProdutoDestaque" class="container-md">
+
+        <div class="row align-items-center"> 
+            <div id="ImagemDestaque" class="col-md-6"> 
+                <div id="carouselCreme" class="carousel slide" data-bs-ride="carousel">
+                    <div id="destaqueCarrossel" class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="templates/ImgModelos/ModeloCreme.png" class="d-block w-100" alt="Modelo Batom">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="templates/ImgModelos/CremeModelo.png" class="d-block w-100" alt="Batom Modelo">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreme" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCreme" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
                 </div>
-                <div class="carousel-item">
-                  <img src="templates\ImgModelos\BatomDestaque.png" class="d-block w-100" alt="Segunda imagem">
-                </div>
+            </div>
+
+            <div id="TextoRimel" class="col-md-6">
+              <div class="containerTexDes">
+                <h2>Cachos de Rosa: Definição e Brilho.</h2>
+                <p>Enriquecido com essência de rosas e ingredientes naturais, o creme hidratante Cachos de Rosa é a solução 
+                  ideal para nutrir e definir seus cachos, deixando-os com um brilho radiante e um perfume suave que remete 
+                  a um jardim florido. Liberte a beleza natural dos seus cabelos e deixe-os desabrochar com a vitalidade e o 
+                  frescor das rosas.</p>
+
+                <p class="precoDestaques">R$99.99</p>
+                <a href="#" id="botaoDestaques" class="btn btn-custom"><strong>Adicionar ao Carrinho</strong></a>
+
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselBatom" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselBatom" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próximo</span>
-              </button>
             </div>
-          </div>
-    
-          <div id="Notas" class="col-md-6 d-flex justify-content-start align-items-center"> <!-- Texto ocupará 6 colunas -->
-            <div class="portlet-body" style="height: 70%; width: 100%; margin-top: 45px;">
-              <h1>NOTAS DE TOPO:</h1>
-            </div>
-          </div>
         </div>
-      </div>
+
     </div>
+
+</div>
 
 
 </div><!--Fim do container destaques-->
@@ -408,9 +444,10 @@
           </video>
       </div>
       <div class="col-md-6">
-          <h3 style="display: inline;"><strong>O Jardim Secreto </strong></h3> 
+          <h3 style="display: inline;"><strong>Lançamento Rosa Mística</strong></h3> 
+          <p>Texto chamando para acessar o pré-lançamento</p>
           <div id="botaoPreVenda" class="d-grid gap-2">
-              <a href="OutrosProdutos.html" class="btn btn-custom-green" role="button"><strong>Clique Aqui</strong></a>
+              <a href="PaginaPrincipal.html" class="btn btn-custom-rosa" role="button"><strong>Clique Aqui</strong></a>
           </div>
       </div>
   </div>
@@ -420,6 +457,30 @@
   © 2024 Jardim Secreto. Todos os direitos reservados.
 </footer>
 
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+      const buttons = document.querySelectorAll(".add-to-cart");
+      buttons.forEach(button => {
+          button.addEventListener("click", (event) => {
+              const card = event.target.closest(".card");
+              const title = card.querySelector(".card-title").innerText;
+              const priceText = card.querySelector(".card-price").innerText;
+              
+              const price = parseFloat(priceText.replace("R$", "").replace(",", "."));
+              
+              let cart = JSON.parse(localStorage.getItem("cart")) || { items: [], total: 0 };
+
+              cart.items.push(title);
+              cart.total += price;
+
+              localStorage.setItem("cart", JSON.stringify(cart));
+              
+              alert(`${title} adicionado ao carrinho!`);
+          });
+      });
+  });
+</script>
 
     <!-- JQuery e Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

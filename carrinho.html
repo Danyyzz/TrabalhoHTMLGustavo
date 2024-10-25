@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+</head>
+<body>
+    <h1>Seu Carrinho</h1>
+    <div id="cart-items"></div>
+    <p>Total: <span id="total-price">R$0.00</span></p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cart = JSON.parse(localStorage.getItem("cart")) || { items: [], total: 0 };
+            const cartItemsDiv = document.getElementById("cart-items");
+            const totalPriceSpan = document.getElementById("total-price");
+
+            cart.items.forEach(item => {
+                const itemElement = document.createElement("p");
+                itemElement.textContent = item;
+                cartItemsDiv.appendChild(itemElement);
+            });
+
+            totalPriceSpan.textContent = `R$${cart.total.toFixed(2)}`;
+        });
+    </script>
+</body>
+</html>
