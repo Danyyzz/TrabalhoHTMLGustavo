@@ -1,21 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll(".add-to-cart");
-    buttons.forEach(button => {
-        button.addEventListener("click", (event) => {
-            const card = event.target.closest(".card");
-            const title = card.querySelector(".card-title").innerText;
-            const priceText = card.querySelector(".card-price").innerText;
-            
-            const price = parseFloat(priceText.replace("R$", "").replace(",", "."));
-            
-            let cart = JSON.parse(localStorage.getItem("cart")) || { items: [], total: 0 };
+function addCart(nome, preco) {
+    event.preventDefault();
+    let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 
-            cart.items.push(title);
-            cart.total += price;
+    const existe = carrinho.find(item => item.nome === nome) 
+    if (existe){
+        existe.quantidade += 1
+    }
+    else{
+        carrinho.push({nome: nome, quantidade: 1, preco: preco})
+    }
 
-            localStorage.setItem("cart", JSON.stringify(cart));
-            
-            alert(`${title} adicionado ao carrinho!`);
-        });
-    });
-});
+    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+    alert(`${nome} foi adicionado ao carrinho!`)
+
+}
+
+
+ 

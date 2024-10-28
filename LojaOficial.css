@@ -301,6 +301,20 @@ h1{
     margin-bottom: 15px;
 }
 
+
+.containerInfos{
+    background-color: #858652;
+    display: flex;
+    margin: auto;
+}
+
+#LinksAvulsos{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /*Configurações mobile para as imagens pequenas de cima*/
 @media screen and (max-width: 990px){
     .image-container > #Imagem5{

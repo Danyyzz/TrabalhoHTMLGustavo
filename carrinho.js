@@ -1,41 +1,36 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const cart = JSON.parse(localStorage.getItem("cart")) || { items: [], total: 0 };
-    const cartItemsDiv = document.getElementById("cart-items");
-    const totalPriceSpan = document.getElementById("total-price");
+function attCarrinho(){
+    const cartLista = document.getElementById('cart')
+    const totalItens = document.getElementById('total-price')
+    let cart = JSON.parse(localStorage.getItem('carrinho')) || [];
+    cartLista.innerHTML = ''
+    let total = 0
 
-    function renderCart() {
-        cartItemsDiv.innerHTML = "";
-        cart.items.forEach((item, index) => {
-            const itemElement = document.createElement("p");
-            itemElement.innerHTML = `${item} <span class="delete-item" data-index="${index}" style="cursor:pointer; color:red;">&#10060;</span>`;
-            cartItemsDiv.appendChild(itemElement);
-        });
-
-        totalPriceSpan.textContent = `R$${cart.total.toFixed(2)}`;
-    }
-
-    renderCart();
-
-    // Remover
-    cartItemsDiv.addEventListener("click", (event) => {
-        if (event.target.classList.contains("delete-item")) {
-            const index = parseInt(event.target.getAttribute("data-index"), 10);
-            const removedPrice = cart.total / cart.items.length;
-            
-            cart.items.splice(index, 1);
-            cart.total -= removedPrice;
-
-            localStorage.setItem("cart", JSON.stringify(cart));
-            renderCart();
-        }
+    cart.forEach((item, index) => { 
+        total += item.quantidade * item.preco;
+        cartLista.innerHTML += `
+        <li>
+            <div>${item.quantidade}x ${item.nome} R$ ${item.preco.toFixed(2)}</div>
+            <button onclick="deleteItem(${index})">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+        </li>
+        `
     });
+    totalItens.innerHTML = `R$ ${total.toFixed(2)}`
+}
+function deleteItem(index) {
+    let cart = JSON.parse(localStorage.getItem('carrinho')) || [];
+    cart.splice(index, 1)
+    localStorage.setItem('carrinho', JSON.stringify(cart));
+    attCarrinho();
+}
 
-    // Pagamento/limpar
-    document.getElementById("pay-button").addEventListener("click", () => {
-        localStorage.removeItem("cart");
-        cart.items = [];
-        cart.total = 0;
-        renderCart();
-        alert("Compra finalizada! Obrigado pela preferencia.");
-    });
-});
+
+function finalizarCompra() {
+    localStorage.removeItem('carrinho')
+    attCarrinho();
+    alert(`Compra finalizada! Obrigada pela preferencia!`)
+
+}
+
+window.onload = attCarrinho;
