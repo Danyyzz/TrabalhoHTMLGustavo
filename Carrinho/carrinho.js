@@ -7,16 +7,21 @@ function attCarrinho(){
 
     cart.forEach((item, index) => { 
         total += item.quantidade * item.preco;
+        totalUnitario = item.quantidade * item.preco;
         cartLista.innerHTML += `
         <li>
-            <div>${item.quantidade}x ${item.nome} R$ ${item.preco.toFixed(2)}</div>
-            <button onclick="deleteItem(${index})">
-                <span class="material-symbols-outlined">delete</span>
-            </button>
+            <div class="item-info">${item.quantidade}x ${item.nome} </div>
+                <div class="actions">
+                    <div id="totalUnitario">R$ ${totalUnitario.toFixed(2)}</div>
+                    <button id="botaoRemover" onclick="deleteItem(${index})">
+                        <span class="material-symbols-outlined">delete</span>
+                    </button>
+                </div>
         </li>
         `
     });
     totalItens.innerHTML = `R$ ${total.toFixed(2)}`
+
 }
 function deleteItem(index) {
     let cart = JSON.parse(localStorage.getItem('carrinho')) || [];

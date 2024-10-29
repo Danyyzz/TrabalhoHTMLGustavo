@@ -58,7 +58,7 @@ body{
 .containerNav{
     width: 100%;
     padding: 0;
-    background-color: #4991bb;
+    background-color: #116d82;
     }
 
 #AbasLink{
@@ -150,7 +150,7 @@ body{
 
 #ProdutoDestaque {
     width: 95%;
-    background: linear-gradient(to bottom, white, #4991bb); 
+    background: linear-gradient(to bottom, white, #116d82); 
     border-radius: 10px;
     padding: 20px; 
 }
@@ -177,7 +177,7 @@ body{
 }
 
 .btn-custom{
-    background-color: #4991bb;
+    background-color: #116d82;
 }
 
 .precoDestaques{
@@ -197,7 +197,7 @@ body{
 
 .card-price {
     font-size: 1.25rem; 
-    color: #28a745; 
+    color: #0c6621; 
     font-weight: bold;
     margin-bottom: 10px; 
 }
@@ -243,7 +243,7 @@ body{
 }
 
 .btn-custom-green{
-    background-color:#4991bb;
+    background-color:#116d82;
 }
 
 
@@ -251,7 +251,7 @@ body{
 /*CSS para tags de texto principais*/
 
 .containerTextos{
-    background-color: #4991bb;
+    background-color: #116d82;
     width: 95%;
     align-items: center;
     margin: auto;
@@ -273,7 +273,7 @@ h1{
 
 /*CSS rodapé*/
 .containerInfos{
-    background-color: #4991bb;
+    background-color: #116d82;
     display: flex;
     margin: auto;
 }

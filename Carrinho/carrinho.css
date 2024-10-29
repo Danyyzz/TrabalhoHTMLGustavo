@@ -64,3 +64,22 @@ li {
     padding: 2px;
 }
 
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: 1px dotted #000000; 
+    margin-right: 10px;
+    padding-right: 10px; 
+}
+
+#botaoRemover{
+    display: flex;
+    align-items: center;
+}
