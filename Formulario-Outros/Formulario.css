@@ -74,3 +74,18 @@ h1{
 h1{
     font-family: "PT Serif", serif;
 }
+
+#LinksTopo {
+    font-weight: 300;
+    background-color: #d2637f;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.021);
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+.nav-link:hover {
+    transform: scale(1.05);
+    transition: all 0.5s
+}
