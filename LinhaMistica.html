@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Jardim Secreto</title>
+    <title>Jardim Secreto/Linha Mistica</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="LojaOficial.css">
+    <link rel="stylesheet" href="LinhaMistica.css">
 </head>
 
 <body>
@@ -34,36 +34,41 @@
   <div class="containerAbas">
       <ul id="itensMenu" class="nav nav-tabs justify-content-center">
           <li class="nav-item">
-              <a id="AbasLink" class="nav-link active" aria-current="page" href="#">Destaques Jardim Secreto</a>
+              <a id="AbasLink" class="nav-link" href="LojaOficial.html">Destaques Jardim Secreto</a>
           </li>
           <li class="nav-item">
-              <a id="AbasLink" class="nav-link" href="LinhaMistica.html">Linha Mística</a>
+              <a id="AbasLink" class="nav-link active" aria-current="page" href="#" style="color: black;">Linha Mística</a>
           </li>
           <li class="nav-item">
-              <a id="AbasLink" class="nav-link" href="#">Linha Encantada</a>
+              <a id="AbasLink" class="nav-link" href="PagsLinhas\LinhaEncantada.html">Linha Encantada</a>
           </li>
           <li class="nav-item">
-              <a id="AbasLink" class="nav-link" href="#">Linha Radiante</a>
+              <a id="AbasLink" class="nav-link" href="PagsLinhas\LinhaRadiante.html">Linha Radiante</a>
           </li>
       </ul>
   </div>
 </div>
   
 
-<div id="destaques" class="container-md">
+<div id="destaques" class="container">
+
+
   <div id="carouselDestaques" class="carousel slide mt-4" data-bs-ride="carousel">
       <div class="carousel-inner">
           <div id="carrosselPrincipal" class="carousel-item active">
-              <img src="templates/ImgItensMaquiagem/BannerLinhas3.png" class="d-block w-100" alt="Primeira imagem">
+              <img src="templates/ImgLinhaMistica/carrossel1.png" class="d-block w-100" alt="Primeira imagem Mistica">
           </div>
           <div class="carousel-item">
-              <img src="templates/ImgItensMaquiagem/LinhaMisticaBanner.jpg" class="d-block w-100" alt="Segunda imagem">
+              <img src="templates/ImgLinhaMistica/carrossel2.png" class="d-block w-100" alt="Segunda imagem Mistica">
           </div>
           <div class="carousel-item">
-              <img src="templates/ImgItensMaquiagem/LinhaAzul.png" class="d-block w-100" alt="Terceira imagem">
+              <img src="templates/ImgLinhaMistica/carrossel3.png" class="d-block w-100" alt="Terceira imagem Mistica">
           </div>
           <div class="carousel-item">
-            <img src="templates/ImgItensMaquiagem/BannerRadiante1.png" class="d-block w-100" alt="Terceira imagem">
+            <img src="templates/ImgLinhaMistica/carrossel4.png" class="d-block w-100" alt="Quarta imagem Mistica">
+          </div>
+          <div class="carousel-item">
+            <img src="templates/ImgLinhaMistica/carrossel5.png" class="d-block w-100" alt="Quinta imagem Mistica">
           </div>
       </div>
 
@@ -81,27 +86,66 @@
   <!--Quadrados com destaques com Modelos-->
   <div id="quadradosDestaques" class="containerQuadrados">
     <div class="image-container">
-      <img id="Imagem1" src="templates\ImgModelos\Modelo1.png" alt="Imagem 1">
+      <img id="Imagem1" src="templates/ImgLinhaMistica/modeloMistica1.png" alt="ImagemMistica 1">
       <div class="image-text">Beleza Oculta</div>
     </div>
     <div class="image-container">
-      <img id="Imagem2" src="templates\ImgModelos\Modelo2.png" alt="Imagem 2">
+      <img id="Imagem2" src="templates/ImgLinhaMistica/modeloMistica4.png" alt="ImagemMistica 2">
       <div class="image-text">Toque de Mistério</div>
     </div>
     <div class="image-container">
-      <img id="Imagem3" src="templates\ImgModelos\Modelo3.png" alt="Imagem 3">
+      <img id="Imagem3" src="templates/ImgLinhaMistica/modeloMistica2.png" alt="ImagemMistica 3">
       <div class="image-text">Poesia da Terra</div>
     </div>
     <div class="image-container">
-      <img id="Imagem4" src="templates\ImgModelos\Modelo4.png" alt="Imagem 4">
+      <img id="Imagem4" src="templates/ImgLinhaMistica/modeloMistica3.png" alt="ImagemMistica 4">
       <div id="TextoImg4" class="image-text">Luxo Sustentável</div>
     </div>
     <div class="image-container">
-      <img id="Imagem5" src="templates\ImgModelos\Modelo5.png" alt="Imagem 5">
+      <img id="Imagem5" src="templates/ImgLinhaMistica/modeloMistica5.png" alt="ImagemMistica 5">
       <div id="TextoImg5" class="image-text">Refúgio da Natureza</div>
     </div>
   </div>
   
+
+
+  <!--Container Destaque Lançamento Rosa Mística-->
+  <div class="containerTextos">
+    <h1>Lançamentos Destaques</h1>
+  </div>
+
+  <div class="rowImagemNotas">
+
+    <div id="ProdutoDestaque" class="container-md">
+
+        <div class="row align-items-center"> 
+            <div id="ImagemDestaque" class="col-md-6"> 
+              <video width="100%" height="100%" controls autoplay muted loop>
+                <source src="templates/ImgPagPrinc/VideoPaginaPrincipal.mp4" type="video/mp4">
+                Jardim Secreto Rosa Mistica.
+              </video>
+            </div>
+
+            <div id="TextoRimel" class="col-md-6">
+              <div class="containerTexDes">
+                <h2 class="card-title">Rosa Mística: *****</h2>
+                <p>Descubra a essência da sedução com nosso novo perfume, uma fragrância que captura a essência da elegância com 
+                  um toque exótico. Inspirado na riqueza sensorial de um jardim otomano ao entardecer, cada borrifada revela 
+                  camadas de rosas turcas, delicadamente entrelaçadas com o calor picante da pimenta rosa. Seja um dos primeiros a sentir
+                  esse toque incrível e acesse a página de pré-lançamento Rosa Mística</p>
+
+                <p class="card-price">R$74,20</p>
+                <a href="PaginaPrincipal.html" id="botaoDestaques" class="btn btn-custom"><strong>Acessar pré-lançamento</strong></a>
+
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+</div>
+
+
 
   <!--Parte dos Produtos mais Procurados-->
   <div class="containerTextos">
@@ -210,221 +254,6 @@
 
 </div>
 
-
-<div class="containerTextos">
-  <h1>Produtos Destaques</h1>
-</div>
-
-  <!--1.1-->
-  <div id="itensQuadrados" class="row">
-    <div class="col">
-      <div class="card">
-        <img src="templates/ImgItensMaquiagem/Produtos/ReparadorPontas1.jpg" class="card-img-top" alt="ReparadorPontas1">
-        <div class="card-body">
-          <h5 class="card-title"><strong>Gotas do Paraíso</strong></h5>
-          <p class="card-price">R$52,00</p>
-          <p class="card-text">Enriquecido com ingredientes naturais, este reparador milagroso é a solução perfeita para revitalizar as pontas secas e danificadas.</p>
-          <a href="#" class="btn btn-custom-green" onclick="addCart('Gotas do Paraíso', 52.00)"><strong>Adicionar ao Carrinho</strong></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="templates/ImgItensMaquiagem/Produtos/HidratanteCorp1.png" class="card-img-top" alt="HidratanteCorp1">
-        <div class="card-body">
-          <h5 class="card-title"><strong>Néctar das Fadas</strong></h5>
-          <p class="card-price">R$69,99</p>
-          <p class="card-text">Enriquecido com essências encantadoras, este hidratante é a promessa de um cuidado que transforma sua rotina de beleza em um ritual mágico.</p>
-          <a href="#" class="btn btn-custom-green" onclick="addCart('Néctar das Fadas', 69.99)"><strong>Adicionar ao Carrinho</strong></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="templates/ImgItensMaquiagem/Produtos/Tonico1.jpg" class="card-img-top" alt="Tonico1">
-        <div class="card-body">
-          <h5 class="card-title"><strong>Acalanto do Sol</strong></h5>
-          <p class="card-price">R$85,20</p>
-          <p class="card-text">Tenha um cabelo radiante com esse Tônico Capilar. Enriquecido com nutrientes naturais, é a solução perfeita para revitalizar seus fios, trazendo vida e brilho.</p>
-          <a href="#" class="btn btn-custom-green" onclick="addCart('Acalanto do Sol', 85.20)"><strong>Adicionar ao Carrinho</strong></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="templates/ImgItensMaquiagem/Produtos/SaboneteLiq1.png" class="card-img-top" alt="SaboneteLiq1">
-        <div class="card-body">
-          <h5 class="card-title"><strong>Brilho de Girassol</strong></h5>
-          <p class="card-price">R$74,40</p>
-          <p class="card-text">Descubra o segredo de uma pele radiante com esse sabonete líquido. Enriquecido com a essência pura de girassóis, este sabonete limpa, hidrata e ilumina sua pele.</p>
-          <a href="#" class="btn btn-custom-green" onclick="addCart('Brilho de Girassol', 74.40)"><strong>Adicionar ao Carrinho</strong></a>
-        </div>
-      </div>
-    </div>
-</div>
-
-
-
-    <!--Imagem e Texto mesma linha 2-->
-    <div class="containerTextos">
-      <h1>Destaque em Batons</h1>
-    </div>
-
-    <div class="rowImagemNotas">
-
-      <div id="ProdutoDestaque" class="container-md">
-  
-          <div class="row align-items-center"> 
-              <div id="ImagemDestaque" class="col-md-6"> 
-                  <div id="carouselBatom" class="carousel slide" data-bs-ride="carousel">
-                      <div id="destaqueCarrossel" class="carousel-inner">
-                          <div class="carousel-item active">
-                              <img src="templates/ImgModelos/ModeloBatom.png" class="d-block w-100" alt="Modelo Batom">
-                          </div>
-                          <div class="carousel-item">
-                              <img src="templates/ImgModelos/BatomModelo.png" class="d-block w-100" alt="Batom Modelo">
-                          </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBatom" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Anterior</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselBatom" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Próximo</span>
-                      </button>
-                  </div>
-              </div>
-  
-              <div id="TextoRimel" class="col-md-6">
-                <div class="containerTexDes">
-                  <h2 class="card-title">Carmim Camélia: a elegância atemporal de um vermelho profundo.</h2>
-                  <p>Com um tom vermelho profundo que captura a essência da sofisticação, este batom é mais do que uma cor, 
-                    é uma declaração de moda. Sua fórmula de longa duração e acabamento impecável garantem que cada sorriso seja 
-                    uma obra de arte. Carmim Camélia não é apenas um batom, é o acessório definitivo para quem deseja deixar uma impressão 
-                    marcante.</p>
-  
-                  <p class="card-price">R$74,20</p>
-                  <a href="#" id="botaoDestaques" class="btn btn-custom" onclick="addCart('Carmim Camélia', 74.20)"><strong>Adicionar ao Carrinho</strong></a>
-  
-                </div>
-              </div>
-          </div>
-  
-      </div>
-  
-  </div>
-        
-
-  <div class="containerTextos">
-    <h1>Imperdíveis</h1>
-  </div>
-
-      <!--1.2-->
-      <div id="itensQuadrados" class="row">
-        <div class="col">
-          <div class="card">
-            <img src="templates/ImgItensMaquiagem/Produtos/Corretivo1.jpg" class="card-img-top" alt="Corretivo1">
-            <div class="card-body">
-              <h5 class="card-title"><strong>Flor de Porcelana</strong></h5>
-              <p class="card-price">R$55,00</p>
-              <p class="card-text">Este corretivo possui uma textura leve que promete uma cobertura impecável, remetendo à delicadeza e pureza das porcelanas antigas.</p>
-              <a href="#" class="btn btn-custom-green" onclick="addCart('Flor de Porcelana', 55.00)"><strong>Adicionar ao Carrinho</strong></a>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col">
-          <div class="card">
-            <img src="templates/ImgItensMaquiagem/Produtos/Rimel1.jpg" class="card-img-top" alt="Rimel1">
-            <div class="card-body">
-              <h5 class="card-title"><strong>Sombra da Lua</strong></h5>
-              <p class="card-price">R$71,20</p>
-              <p class="card-text">Oferece um efeito dramático e profundo. Com pigmentos escuros e ricos, ideal para eventos especiais onde você deseja brilhar.</p>
-              <a href="#" class="btn btn-custom-green" onclick="addCart('Sombra da Lua', 71.20)"><strong>Adicionar ao Carrinho</strong></a>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col">
-          <div class="card">
-            <img src="templates/ImgItensMaquiagem/Produtos/Desodorante1.jpg" class="card-img-top" alt="Desodorante1">
-            <div class="card-body">
-              <h5 class="card-title"><strong>Toque de Seda</strong></h5>
-              <p class="card-price">R$33,99</p>
-              <p class="card-text">Descubra a sensação de frescor que dura o dia todo com esse desodorante. Com uma fragrância suave e envolvente, ele é a escolha perfeita para quem busca proteção e cuidado em um só produto. </p>
-              <a href="#" class="btn btn-custom-green" onclick="addCart('Toque de Seda', 33.99)"><strong>Adicionar ao Carrinho</strong></a>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col">
-          <div class="card">
-            <img src="templates/ImgItensMaquiagem/Produtos/OleoCorpo1.jpg" class="card-img-top" alt="OleoCorpo1">
-            <div class="card-body">
-              <h5 class="card-title"><strong>Brilho da Lua</strong></h5>
-              <p class="card-price">R$86,90</p>
-              <p class="card-text">Descubra o segredo de uma pele radiante com esse óleo corporal. Enriquecido com ingredientes naturais, este óleo luxuoso promete nutrir e iluminar sua pele.</p>
-              <a href="#" class="btn btn-custom-green" onclick="addCart('Brilho da Lua', 86.90)"><strong>Adicionar ao Carrinho</strong></a>
-            </div>
-          </div>
-        </div>
-    </div>
-    
-    <!--Imagem e Texto mesma linha 3-->
-  <div class="containerTextos">
-    <h1>Destaque em Cremes Hidratantes para Cabelos</h1>
-  </div>
-
-  <div class="rowImagemNotas">
-
-    <div id="ProdutoDestaque" class="container-md">
-
-        <div class="row align-items-center"> 
-            <div id="ImagemDestaque" class="col-md-6"> 
-                <div id="carouselCreme" class="carousel slide" data-bs-ride="carousel">
-                    <div id="destaqueCarrossel" class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="templates/ImgModelos/ModeloCreme.png" class="d-block w-100" alt="Modelo Batom">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="templates/ImgModelos/CremeModelo.png" class="d-block w-100" alt="Batom Modelo">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreme" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCreme" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
-                </div>
-            </div>
-
-            <div id="TextoRimel" class="col-md-6">
-              <div class="containerTexDes">
-                <h2 class="card-title">Cachos de Rosa: Definição e Brilho.</h2>
-                <p>Enriquecido com essência de rosas e ingredientes naturais, o creme hidratante Cachos de Rosa é a solução 
-                  ideal para nutrir e definir seus cachos, deixando-os com um brilho radiante e um perfume suave que remete 
-                  a um jardim florido. Liberte a beleza natural dos seus cabelos e deixe-os desabrochar com a vitalidade e o 
-                  frescor das rosas.</p>
-
-                <p class="card-price">R$85,60</p>
-                <a href="#" id="botaoDestaques" class="btn btn-custom" onclick="addCart('Cachos de Rosa', 85.60)"><strong>Adicionar ao Carrinho</strong></a>
-
-              </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-
 </div><!--Fim do container destaques-->
 
 
@@ -473,7 +302,7 @@
 </div>
 
 
-<footer style="background-color: #858652;" class="text-center text-white py-2">
+<footer style="background-color: #ce8388;" class="text-center text-white py-2">
   © 2024 Jardim Secreto. Todos os direitos reservados.
 </footer>
 
