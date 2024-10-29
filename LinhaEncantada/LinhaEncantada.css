@@ -1,0 +1,352 @@
+
+body{
+    background-image: url(../templates/ImgLinhaEncantada/bgEncantada.png);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+    background-color: #ffffff84;
+    padding: 5px;
+
+}
+.container-fluid {
+    padding: 0px;
+}
+
+
+.logo {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+.navbar-brand > img {
+    max-width: 250px;
+}
+
+
+#LinksTopo {
+    font-weight: 300;
+    background-color: #ffffffd0;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.021);
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+.nav-link:hover {
+    transform: scale(1.05);
+    transition: all 0.5s
+}
+
+.logo > p {
+    margin: 0px 0px 15px 5px;
+}
+
+
+/*Navbar dos Links para as Linhas*/
+.containerNav{
+    width: 100%;
+    padding: 0;
+    background-color: #4991bb;
+    }
+
+#AbasLink{
+    color: white;
+}    
+
+/*container principal*/
+
+#destaques{
+    width: 90%;
+    background-color: #ffffff96;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+
+/*carrossel 1*/
+.carousel-inner {
+    margin: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#carouselDestaques {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+/*Quadrados modelos*/
+#quadradosDestaques img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #quadradosDestaques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 95%;
+    margin: auto;
+  }
+  
+  .image-container {
+    position: relative;
+
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto; 
+    padding: 5px;
+  }
+
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 95%; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* CSS para os container com produtos destaques*/
+.ImagemNotas {
+    padding: 20px 0;
+}
+
+#ProdutoDestaque {
+    width: 95%;
+    background: linear-gradient(to bottom, white, #4991bb); 
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+#destaqueCarrossel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#ImagemDestaque, #TextoRimel {
+    padding: 10px;
+}
+
+#TextoRimel {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#ImagemDestaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom{
+    background-color: #4991bb;
+}
+
+.precoDestaques{
+    font-weight: bold;
+    font-size: 1.25rem; 
+    margin-bottom: 10px;
+
+}
+
+#botaoDestaques{
+    width: 100%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* CSS para os cards dos produtos*/
+
+.card-price {
+    font-size: 1.25rem; 
+    color: #28a745; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+#itensQuadrados {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 0 1 17rem; 
+    max-width: 17rem;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-price {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.btn-custom-green{
+    background-color:#4991bb;
+}
+
+
+
+/*CSS para tags de texto principais*/
+
+.containerTextos{
+    background-color: #4991bb;
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow: 5px rgba(0, 0, 0, 0.021);
+
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/*CSS rodapé*/
+.containerInfos{
+    background-color: #4991bb;
+    display: flex;
+    margin: auto;
+}
+
+#LinksAvulsos{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Configurações mobile para as imagens pequenas de cima*/
+@media screen and (max-width: 990px){
+    .image-container > #Imagem5{
+        display: none;
+    }
+
+    .image-container > #TextoImg5{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .image-container > #Imagem4{
+        display: none;
+    }
+
+    .image-container > #TextoImg4{
+        display: none;
+    }
+
+    .logo > p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-container > #Imagem2{
+        display: none;
+    }
+
+    .image-container > #TextoImg2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    .image-text{
+        display: none;
+    }
+}
+
+
+/*Configurações mobile cards dos itens*/
+@media screen and (max-width: 1200px) {
+    #itensQuadrados {
+        flex-wrap: wrap; 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .col {
+        flex: 1 1 calc(33.33% - 20px); /* 3 colunas */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col {
+        flex: 1 1 calc(50% - 20px); /* 2 colunas */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 1 1 100%; /* 1 coluna */
+    }
+}

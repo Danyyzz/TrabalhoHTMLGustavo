@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playball&display=swap');
+
+
 body {
     background-image: url(../templates/Fundo4.png);
     background-size: cover;
@@ -74,8 +76,6 @@ body {
     padding: 0;
     margin: auto;
 }
-
-
 
 #AbasLink{
     color: black;
@@ -220,14 +220,13 @@ body {
 
 #itensQuadrados {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap;
     justify-content: center;
-    gap: 20px;
 }
 
 .col {
-    flex: 0 1 18rem; 
-    max-width: 18rem;
+    flex: 0 1 17rem; 
+    max-width: 17rem;
 }
 
 .card {
@@ -236,6 +235,7 @@ body {
     flex-direction: column;
     height: 100%;
 }
+
 
 .card-body {
     flex: 1;
@@ -302,7 +302,6 @@ h1{
     justify-content: center;
 }
 
-
 /*Configurações mobile para as imagens pequenas de cima*/
 @media screen and (max-width: 990px){
     .image-container > #Imagem5{
@@ -328,22 +327,44 @@ h1{
     }
 }
 
+@media screen and (max-width: 500px){
+    .image-container > #Imagem2{
+        display: none;
+    }
+
+    .image-container > #TextoImg2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    .image-text{
+        display: none;
+    }
+}
+
+
 /*Configurações mobile cards dos itens*/
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
+    #itensQuadrados {
+        flex-wrap: wrap; 
+        display: flex;
+        justify-content: space-evenly;
+    }
     .col {
         flex: 1 1 calc(33.33% - 20px); /* 3 colunas */
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .col {
         flex: 1 1 calc(50% - 20px); /* 2 colunas */
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .col {
         flex: 1 1 100%; /* 1 coluna */
     }
 }
-

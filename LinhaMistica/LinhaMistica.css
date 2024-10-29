@@ -1,3 +1,4 @@
+
 body{
     background-image: url(../templates/ImgLinhaMistica/backgroundMistica.png);
     background-size: cover;
@@ -203,14 +204,13 @@ body{
 
 #itensQuadrados {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap;
     justify-content: center;
-    gap: 20px;
 }
 
 .col {
-    flex: 0 1 18rem; 
-    max-width: 18rem;
+    flex: 0 1 17rem; 
+    max-width: 17rem;
 }
 
 .card {
@@ -282,4 +282,71 @@ h1{
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+/*Configurações mobile para as imagens pequenas de cima*/
+@media screen and (max-width: 990px){
+    .image-container > #Imagem5{
+        display: none;
+    }
+
+    .image-container > #TextoImg5{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .image-container > #Imagem4{
+        display: none;
+    }
+
+    .image-container > #TextoImg4{
+        display: none;
+    }
+
+    .logo > p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-container > #Imagem2{
+        display: none;
+    }
+
+    .image-container > #TextoImg2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    .image-text{
+        display: none;
+    }
+}
+
+
+/*Configurações mobile cards dos itens*/
+@media screen and (max-width: 1200px) {
+    #itensQuadrados {
+        flex-wrap: wrap; 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .col {
+        flex: 1 1 calc(33.33% - 20px); /* 3 colunas */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col {
+        flex: 1 1 calc(50% - 20px); /* 2 colunas */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 1 1 100%; /* 1 coluna */
+    }
 }
