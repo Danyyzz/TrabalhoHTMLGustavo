@@ -48,7 +48,7 @@
         <p>Ao completar seu cadastro, você estará a um passo de 
         mergulhar no universo de fragrâncias que a Rosa Mística tem a oferecer.</p>
         <hr style="margin-top: -2px;">
-        <form class="row g-3 d-flex justify-content-start">
+        <form id="formP" class="row g-3 d-flex justify-content-start">
             <div class="col-md-6" style="width: 30%;">
                 <label for="inputEmail4" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="inpuNome">
@@ -108,7 +108,7 @@
       var toastEl = document.getElementById('liveToast');
       var toast = new bootstrap.Toast(toastEl);
       toast.show();
-      document.getElementById('Formulario.html').reset();
+      document.getElementById('formP').reset();
     });
   </script>
 
