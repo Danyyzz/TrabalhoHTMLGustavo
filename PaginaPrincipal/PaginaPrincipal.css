@@ -37,7 +37,7 @@
 }
 
 body {
-    background-image: url(https://img.freepik.com/premium-photo/pink-roses-wooden-copy-space-background_23-2148268261.jpg?w=740);
+    background-image: url(../templates/ImgLinhaMistica/backgroundMistica.png);
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(3px);
